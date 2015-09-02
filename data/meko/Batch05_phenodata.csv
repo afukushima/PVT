@@ -1,0 +1,128 @@
+gcid,weight_mg,gcid2,expID,batchID,samplename,genotype,genotype2,modelpred,model,pred,leafcolor,leafshape,rootshape,AGI,aerialpart_weight
+Cont13_1,0.055556,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cont14_1,0.055556,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cont16_1,0.055556,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cont17_1,0.055556,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cont18_1,0.055556,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+MeKO_05_01_1,0.055556,MeKO_05_01_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,66_02,aat22,aat2-2,pred,nodata,MeKO_05_01_1    ,palegreen,normal,normal,AT5G19550,9.5
+MeKO_05_02_1,0.055556,MeKO_05_02_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,66_04,aat22,aat2-2,model,MeKO_05_02_1    ,nodata,palegreen,normal,normal,AT5G19550,8.3
+MeKO_05_04_1,0.055556,MeKO_05_04_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,66_06,aat22,aat2-2,pred,nodata,MeKO_05_04_1    ,palegreen,normal,normal,AT5G19550,9.8
+MeKO_05_05_1,0.055556,MeKO_05_05_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,66_07,aat22,aat2-2,pred,nodata,MeKO_05_05_1    ,palegreen,normal,normal,AT5G19550,7.8
+MeKO_05_06_1,0.055556,MeKO_05_06_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,66_08,aat22,aat2-2,pred,nodata,MeKO_05_06_1    ,palegreen,normal,normal,AT5G19550,10.8
+MeKO_05_07_1,0.055556,MeKO_05_07_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,66_09,aat22,aat2-2,model,MeKO_05_07_1    ,nodata,palegreen,normal,normal,AT5G19550,13.7
+MeKO_05_08_1,0.055556,MeKO_05_08_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,66_10,aat22,aat2-2,pred,nodata,MeKO_05_08_1    ,palegreen,normal,normal,AT5G19550,5.8
+MeKO_05_09_1,0.055556,MeKO_05_09_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,80_01,phyB9,phyB-9,pred,nodata,MeKO_05_09_1    ,palegreen,longppetiole,normal,AT2G18790,22.4
+MeKO_05_10_1,0.055556,MeKO_05_10_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,80_02,phyB9,phyB-9,model,MeKO_05_10_1    ,nodata,palegreen,longppetiole,normal,AT2G18790,20.8
+MeKO_05_11_1,0.055556,MeKO_05_11_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,80_03,phyB9,phyB-9,pred,nodata,MeKO_05_11_1    ,palegreen,longppetiole,normal,AT2G18790,28.3
+MeKO_05_12_1,0.055556,MeKO_05_12_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,80_05,phyB9,phyB-9,pred,nodata,MeKO_05_12_1    ,palegreen,longppetiole,normal,AT2G18790,21.6
+MeKO_05_15_1,0.055556,MeKO_05_15_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,80_09,phyB9,phyB-9,pred,nodata,MeKO_05_15_1    ,palegreen,longppetiole,normal,AT2G18790,25.2
+MeKO_05_17_1,0.055556,MeKO_05_17_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,81_01,mur11,mur1-1,pred,nodata,MeKO_05_17_1    ,normal,normal,normal,AT3G51160,36.5
+MeKO_05_18_1,0.055556,MeKO_05_18_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,81_03,mur11,mur1-1,pred,nodata,MeKO_05_18_1    ,normal,normal,normal,AT3G51160,27.1
+MeKO_05_20_1,0.055556,MeKO_05_20_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,81_05,mur11,mur1-1,pred,nodata,MeKO_05_20_1    ,normal,normal,normal,AT3G51160,36.9
+MeKO_05_21_1,0.055556,MeKO_05_21_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,81_06,mur11,mur1-1,model,MeKO_05_21_1    ,nodata,normal,normal,normal,AT3G51160,33.4
+MeKO_05_22_1,0.055556,MeKO_05_22_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,81_07,mur11,mur1-1,pred,nodata,MeKO_05_22_1    ,normal,normal,normal,AT3G51160,31.4
+MeKO_05_23_1,0.055556,MeKO_05_23_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,81_08,mur11,mur1-1,pred,nodata,MeKO_05_23_1    ,normal,normal,normal,AT3G51160,26.2
+MeKO_05_25_1,0.055556,MeKO_05_25_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,Col_lot2_01,col0,col-0,pred,nodata,MeKO_05_25_1    ,normal,normal,normal,noinfo,38
+MeKO_05_26_1,0.055556,MeKO_05_26_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,Col_lot2_02,col0,col-0,pred,nodata,MeKO_05_26_1    ,normal,normal,normal,noinfo,33.2
+MeKO_05_27_1,0.055556,MeKO_05_27_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,Col_lot2_03,col0,col-0,pred,nodata,MeKO_05_27_1    ,normal,normal,normal,noinfo,40.4
+MeKO_05_28_1,0.055556,MeKO_05_28_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,Col_lot2_04,col0,col-0,model,MeKO_05_28_1    ,nodata,normal,normal,normal,noinfo,26.2
+MeKO_05_30_1,0.055556,MeKO_05_30_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,Col_lot2_07,col0,col-0,pred,nodata,MeKO_05_30_1    ,normal,normal,normal,noinfo,28.2
+MeKO_05_31_1,0.055556,MeKO_05_31_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,Col_lot2_08,col0,col-0,pred,nodata,MeKO_05_31_1    ,normal,normal,normal,noinfo,27.6
+MeKO_05_32_1,0.055556,MeKO_05_32_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,Col_lot2_09,col0,col-0,pred,nodata,MeKO_05_32_1    ,normal,normal,normal,noinfo,35.1
+MeKO_05_33_1,0.055556,MeKO_05_33_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,Col_Jun08_01,col0,col-0,pred,nodata,MeKO_05_33_1    ,normal,normal,normal,noinfo,33.6
+MeKO_05_35_1,0.055556,MeKO_05_35_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,Col_Jun08_03,col0,col-0,pred,nodata,MeKO_05_35_1    ,normal,normal,normal,noinfo,23.9
+MeKO_05_36_1,0.055556,MeKO_05_36_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,Col_Jun08_04,col0,col-0,pred,nodata,MeKO_05_36_1    ,normal,normal,normal,noinfo,25.5
+MeKO_05_37_1,0.055556,MeKO_05_37_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,Col_Jun08_06,col0,col-0,pred,nodata,MeKO_05_37_1    ,normal,normal,normal,noinfo,36
+MeKO_05_38_1,0.055556,MeKO_05_38_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,Col_Jun08_07,col0,col-0,pred,nodata,MeKO_05_38_1    ,normal,normal,normal,noinfo,23
+MeKO_05_39_1,0.055556,MeKO_05_39_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,Col_Jun08_08,col0,col-0,pred,nodata,MeKO_05_39_1    ,normal,normal,normal,noinfo,27.5
+MeKO_10_01_1,0.055556,MeKO_10_01_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,146_02,mur32,mur3-2,pred,nodata,MeKO_10_01_1    ,normal,normal,normal,AT2G20370,44.1
+MeKO_10_02_1,0.055556,MeKO_10_02_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,146_03,mur32,mur3-2,pred,nodata,MeKO_10_02_1    ,normal,normal,normal,AT2G20370,29.6
+MeKO_10_04_1,0.055556,MeKO_10_04_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,146_05,mur32,mur3-2,pred,nodata,MeKO_10_04_1    ,normal,normal,normal,AT2G20370,34
+MeKO_10_05_1,0.055556,MeKO_10_05_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,146_06,mur32,mur3-2,pred,nodata,MeKO_10_05_1    ,normal,normal,normal,AT2G20370,41.1
+MeKO_10_06_1,0.055556,MeKO_10_06_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,146_07,mur32,mur3-2,model,MeKO_10_06_1    ,nodata,normal,normal,normal,AT2G20370,42.8
+MeKO_10_07_1,0.055556,MeKO_10_07_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,146_08,mur32,mur3-2,pred,nodata,MeKO_10_07_1    ,normal,normal,normal,AT2G20370,29.7
+MeKO_10_08_1,0.055556,MeKO_10_08_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,146_09,mur32,mur3-2,pred,nodata,MeKO_10_08_1    ,normal,normal,normal,AT2G20370,31.3
+MeKO_10_09_1,0.055556,MeKO_10_09_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,35_01,fur11,fur1-1,pred,nodata,MeKO_10_09_1    ,normal,normal,normal,AT4G05120,13.4
+MeKO_10_11_1,0.055556,MeKO_10_11_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,35_03,fur11,fur1-1,pred,nodata,MeKO_10_11_1    ,normal,normal,normal,AT4G05120,17.9
+MeKO_10_12_1,0.055556,MeKO_10_12_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,35_05,fur11,fur1-1,pred,nodata,MeKO_10_12_1    ,normal,normal,normal,AT4G05120,14.6
+MeKO_10_13_1,0.055556,MeKO_10_13_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,35_06,fur11,fur1-1,pred,nodata,MeKO_10_13_1    ,normal,normal,normal,AT4G05120,22.5
+MeKO_10_14_1,0.055556,MeKO_10_14_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,35_07,fur11,fur1-1,pred,nodata,MeKO_10_14_1    ,normal,normal,normal,AT4G05120,18.6
+MeKO_10_15_1,0.055556,MeKO_10_15_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,35_09,fur11,fur1-1,pred,nodata,MeKO_10_15_1    ,normal,normal,normal,AT4G05120,19.4
+MeKO_10_17_1,0.055556,MeKO_10_17_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,82_01,mur12,mur1-2,pred,nodata,MeKO_10_17_1    ,normal,normal,normal,AT3G51160,37.8
+MeKO_10_18_1,0.055556,MeKO_10_18_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,82_02,mur12,mur1-2,pred,nodata,MeKO_10_18_1    ,normal,normal,normal,AT3G51160,36.4
+MeKO_10_19_1,0.055556,MeKO_10_19_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,82_03,mur12,mur1-2,pred,nodata,MeKO_10_19_1    ,normal,normal,normal,AT3G51160,37.7
+MeKO_10_20_1,0.055556,MeKO_10_20_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,82_04,mur12,mur1-2,pred,nodata,MeKO_10_20_1    ,normal,normal,normal,AT3G51160,39
+MeKO_10_21_1,0.055556,MeKO_10_21_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,82_07,mur12,mur1-2,pred,nodata,MeKO_10_21_1    ,normal,normal,normal,AT3G51160,32.4
+MeKO_10_22_1,0.055556,MeKO_10_22_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,82_08,mur12,mur1-2,pred,nodata,MeKO_10_22_1    ,normal,normal,normal,AT3G51160,29.9
+MeKO_10_23_1,0.055556,MeKO_10_23_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,82_09,mur12,mur1-2,pred,nodata,MeKO_10_23_1    ,normal,normal,normal,AT3G51160,38.6
+MeKO_10_24_1,0.055556,MeKO_10_24_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,82_10,mur12,mur1-2,model,MeKO_10_24_1    ,nodata,normal,normal,normal,AT3G51160,32.9
+MeKO_10_25_1,0.055556,MeKO_10_25_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_lot3_1_01,col0,col-0,model,MeKO_10_25_1    ,nodata,normal,normal,normal,noinfo,28.7
+MeKO_10_26_1,0.055556,MeKO_10_26_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_lot3_1_03,col0,col-0,pred,nodata,MeKO_10_26_1    ,normal,normal,normal,noinfo,30
+MeKO_10_28_1,0.055556,MeKO_10_28_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_lot3_1_05,col0,col-0,pred,nodata,MeKO_10_28_1    ,normal,normal,normal,noinfo,26.8
+MeKO_10_29_1,0.055556,MeKO_10_29_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_lot3_1_06,col0,col-0,pred,nodata,MeKO_10_29_1    ,normal,normal,normal,noinfo,22.2
+MeKO_10_30_1,0.055556,MeKO_10_30_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_lot3_1_07,col0,col-0,pred,nodata,MeKO_10_30_1    ,normal,normal,normal,noinfo,21.6
+MeKO_10_31_1,0.055556,MeKO_10_31_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_lot3_1_08,col0,col-0,pred,nodata,MeKO_10_31_1    ,normal,normal,normal,noinfo,25.3
+MeKO_10_33_1,0.055556,MeKO_10_33_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_Jun08_1_01,col0,col-0,pred,nodata,MeKO_10_33_1    ,normal,normal,normal,noinfo,30.4
+MeKO_10_35_1,0.055556,MeKO_10_35_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_Jun08_1_03,col0,col-0,pred,nodata,MeKO_10_35_1    ,normal,normal,normal,noinfo,27.2
+MeKO_10_37_1,0.055556,MeKO_10_37_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_Jun08_1_06,col0,col-0,pred,nodata,MeKO_10_37_1    ,normal,normal,normal,noinfo,27.7
+MeKO_10_39_1,0.055556,MeKO_10_39_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_Jun08_1_08,col0,col-0,pred,nodata,MeKO_10_39_1    ,normal,normal,normal,noinfo,26.7
+MeKO_10_40_1,0.055556,MeKO_10_40_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_Jun08_1_09,col0,col-0,pred,nodata,MeKO_10_40_1    ,normal,normal,normal,noinfo,32.3
+MeKO_10_41_1,0.055556,MeKO_10_41_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,78_01,ixr11,ixr1-1,pred,nodata,MeKO_10_41_1    ,normal,normal,normal,AT5G05170,24.4
+MeKO_10_42_1,0.055556,MeKO_10_42_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,78_03,ixr11,ixr1-1,pred,nodata,MeKO_10_42_1    ,normal,normal,normal,AT5G05170,21.9
+MeKO_10_43_1,0.055556,MeKO_10_43_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,78_04,ixr11,ixr1-1,pred,nodata,MeKO_10_43_1    ,normal,normal,normal,AT5G05170,24.6
+MeKO_10_44_1,0.055556,MeKO_10_44_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,78_05,ixr11,ixr1-1,pred,nodata,MeKO_10_44_1    ,normal,normal,normal,AT5G05170,23.6
+MeKO_10_45_1,0.055556,MeKO_10_45_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,78_06,ixr11,ixr1-1,pred,nodata,MeKO_10_45_1    ,normal,normal,normal,AT5G05170,20.7
+MeKO_10_46_1,0.055556,MeKO_10_46_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,78_08,ixr11,ixr1-1,model,MeKO_10_46_1    ,nodata,normal,normal,normal,AT5G05170,20.5
+MeKO_10_47_1,0.055556,MeKO_10_47_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,78_09,ixr11,ixr1-1,pred,nodata,MeKO_10_47_1    ,normal,normal,normal,AT5G05170,21.4
+MeKO_10_48_1,0.055556,MeKO_10_48_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,78_10,ixr11,ixr1-1,pred,nodata,MeKO_10_48_1    ,normal,normal,normal,AT5G05170,17.1
+MeKO_10_49_1,0.055556,MeKO_10_49_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,102_01,rsw11,rsw1-1,pred,nodata,MeKO_10_49_1    ,normal,normal,normal,AT4G32410,15.6
+MeKO_10_51_1,0.055556,MeKO_10_51_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,102_03,rsw11,rsw1-1,pred,nodata,MeKO_10_51_1    ,normal,normal,normal,AT4G32410,25.3
+MeKO_10_52_1,0.055556,MeKO_10_52_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,102_04,rsw11,rsw1-1,pred,nodata,MeKO_10_52_1    ,normal,normal,normal,AT4G32410,27.7
+MeKO_10_53_1,0.055556,MeKO_10_53_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,102_06,rsw11,rsw1-1,pred,nodata,MeKO_10_53_1    ,normal,normal,normal,AT4G32410,37.2
+MeKO_10_56_1,0.055556,MeKO_10_56_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,102_10,rsw11,rsw1-1,pred,nodata,MeKO_10_56_1    ,normal,normal,normal,AT4G32410,23
+MeKO_10_57_1,0.055556,MeKO_10_57_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,104_02,rsw31,rsw3-1,pred,nodata,MeKO_10_57_1    ,normal,normal,normal,AT5G63840,23.8
+MeKO_10_58_1,0.055556,MeKO_10_58_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,104_03,rsw31,rsw3-1,pred,nodata,MeKO_10_58_1    ,normal,normal,normal,AT5G63840,24.1
+MeKO_10_59_1,0.055556,MeKO_10_59_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,104_04,rsw31,rsw3-1,pred,nodata,MeKO_10_59_1    ,normal,normal,normal,AT5G63840,10.8
+MeKO_10_60_1,0.055556,MeKO_10_60_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,104_05,rsw31,rsw3-1,pred,nodata,MeKO_10_60_1    ,normal,normal,normal,AT5G63840,24.2
+MeKO_10_61_1,0.055556,MeKO_10_61_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,104_07,rsw31,rsw3-1,pred,nodata,MeKO_10_61_1    ,normal,normal,normal,AT5G63840,25
+MeKO_10_62_1,0.055556,MeKO_10_62_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,104_08,rsw31,rsw3-1,pred,nodata,MeKO_10_62_1    ,normal,normal,normal,AT5G63840,25.1
+MeKO_10_63_1,0.055556,MeKO_10_63_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,104_09,rsw31,rsw3-1,pred,MeKO_10_63_1    ,nodata,normal,normal,normal,AT5G63840,19.9
+MeKO_10_65_1,0.055556,MeKO_10_65_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_　lot2_01,col0,col-0,pred,nodata,MeKO_10_65_1    ,normal,normal,normal,noinfo,45.9
+MeKO_10_66_1,0.055556,MeKO_10_66_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_　lot2_02,col0,col-0,pred,nodata,MeKO_10_66_1    ,normal,normal,normal,noinfo,26.5
+MeKO_10_67_1,0.055556,MeKO_10_67_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_　lot2_03,col0,col-0,pred,nodata,MeKO_10_67_1    ,normal,normal,normal,noinfo,41.5
+MeKO_10_69_1,0.055556,MeKO_10_69_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_　lot2_06,col0,col-0,pred,nodata,MeKO_10_69_1    ,normal,normal,normal,noinfo,48.3
+MeKO_10_70_1,0.055556,MeKO_10_70_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_　lot2_07,col0,col-0,pred,nodata,MeKO_10_70_1    ,normal,normal,normal,noinfo,39
+MeKO_10_71_1,0.055556,MeKO_10_71_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_　lot2_08,col0,col-0,pred,nodata,MeKO_10_71_1    ,normal,normal,normal,noinfo,46.6
+MeKO_10_72_1,0.055556,MeKO_10_72_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_　lot2_09,col0,col-0,pred,nodata,MeKO_10_72_1    ,normal,normal,normal,noinfo,44.3
+MeKO_10_73_1,0.055556,MeKO_10_73_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col　_lot3_2_03,col0,col-0,pred,nodata,MeKO_10_73_1    ,normal,normal,normal,noinfo,28.8
+MeKO_10_74_1,0.055556,MeKO_10_74_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col　_lot3_2_04,col0,col-0,pred,nodata,MeKO_10_74_1    ,normal,normal,normal,noinfo,27.8
+MeKO_10_75_1,0.055556,MeKO_10_75_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col　_lot3_2_05,col0,col-0,pred,nodata,MeKO_10_75_1    ,normal,normal,normal,noinfo,26.9
+MeKO_10_76_1,0.055556,MeKO_10_76_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col　_lot3_2_06,col0,col-0,pred,nodata,MeKO_10_76_1    ,normal,normal,normal,noinfo,26.5
+MeKO_10_77_1,0.055556,MeKO_10_77_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col　_lot3_2_07,col0,col-0,pred,nodata,MeKO_10_77_1    ,normal,normal,normal,noinfo,27.8
+MeKO_10_78_1,0.055556,MeKO_10_78_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col　_lot3_2_08,col0,col-0,pred,nodata,MeKO_10_78_1    ,normal,normal,normal,noinfo,24.1
+MeKO_10_80_1,0.055556,MeKO_10_80_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col　_lot3_2_10,col0,col-0,pred,nodata,MeKO_10_80_1    ,normal,normal,normal,noinfo,26
+MeKO_10_81_1,0.055556,MeKO_10_81_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_Jun08_2_01,col0,col-0,pred,nodata,MeKO_10_81_1    ,normal,normal,normal,noinfo,32.6
+MeKO_10_82_1,0.055556,MeKO_10_82_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_Jun08_2_02,col0,col-0,pred,nodata,MeKO_10_82_1    ,normal,normal,normal,noinfo,21.6
+MeKO_10_83_1,0.055556,MeKO_10_83_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_Jun08_2_04,col0,col-0,pred,nodata,MeKO_10_83_1    ,normal,normal,normal,noinfo,29.4
+MeKO_10_84_1,0.055556,MeKO_10_84_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_Jun08_2_05,col0,col-0,pred,nodata,MeKO_10_84_1    ,normal,normal,normal,noinfo,25
+MeKO_10_85_1,0.055556,MeKO_10_85_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_Jun08_2_06,col0,col-0,pred,nodata,MeKO_10_85_1    ,normal,normal,normal,noinfo,29.7
+MeKO_10_86_1,0.055556,MeKO_10_86_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_Jun08_2_07,col0,col-0,pred,nodata,MeKO_10_86_1    ,normal,normal,normal,noinfo,26.5
+MeKO_10_87_1,0.055556,MeKO_10_87_1    ,110106_MeKO_5batch_rep_AndiMS,MeKO_05_10,col_Jun08_2_08,col0,col-0,pred,nodata,MeKO_10_87_1    ,normal,normal,normal,noinfo,24.1
+STDs_1_1_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_1_2_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_1_3_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_2_1_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_2_2_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_2_3_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_3_1_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_3_2_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_3_3_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_E1_1_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_E1_2_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_E1_3_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_E2_1_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_E2_2_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_E2_3_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_E3_1_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_E3_2_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+STDs_E3_3_1,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
