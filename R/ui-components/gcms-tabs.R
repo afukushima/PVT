@@ -8,7 +8,7 @@ gcmsAnalysisTabs <- tags$html(
 			conditionalPanel(
 				condition = 'input.gcmsPcaNorm == "CRMN" || input.gcmsPcaNorm == "One"',
 				sliderInput('gcmsThresh', 'Threshold', 
-					0, 1, 0, step = 0.01, format='0%')
+					0, 1, 0, step = 0.01)
 				),
 			selectInput('gcmsPcaMethod', 'PCA Method', choices=listPcaMethods(), selected="ppca"),
 			plotOutput('gcmsPCA')

@@ -4,7 +4,7 @@ genericAnalysisTabs <- tags$html(
 	tabsetPanel(
 		tabPanel('Summary (MVA)',
 			sliderInput('genericThresh', 'Threshold', 
-				0, 1, 0.50, step = 0.01, format='0%'),
+				0, 1, 0.50, step = 0.01),
 			tabsetPanel(
 				tabPanel('Hierarchical Cluster',
 					selectInput('genericHCMethod', 'hclust Method',
