@@ -223,3 +223,26 @@ NULL
 ##' @references Fumio Matsuda et al. Front Plant Sci 2011 2:40.
 ##' @author Atsushi Fukushima
 NULL
+
+
+##' A metabolite data set by LC-ESI-TOF-MS dataset
+##' - metabolic profile data of Arabidopsis four aerial tissues.
+##'
+##' 32 samples (8 biological replicates for each sample)
+##' 
+##' A matrix containing 1234 detected metabolite peaks (rows) and 32 observations
+##' (columns).
+##'
+##' All raw data are also available from DropMet
+##' (http://prime.psc.riken.jp/archives/data/DropMet/002/).
+##' 
+##' @name AtMet_Matsuda09
+##' @docType data
+##' @aliases AtMetM09
+##' @title Metabolic profile data of Arabidopsis four aerial tissues
+##' 
+##' @keywords datasets
+##' @references Fumio Matsuda et al. Plant J 2009 57(3):555-577.
+##' @author Atsushi Fukushima
+NULL
+
