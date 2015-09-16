@@ -182,3 +182,44 @@ NULL
 NULL
 
 
+##' A metabolite data set. AtMetExpress development: a phytochemical
+##' atlas of Arabidopsis development by LC-qTOF/MS. 
+##'
+##' 144 samples (4 biological replicates for each sample)
+##' 
+##' A matrix containing  1589 detected metabolite peaks (rows) and 144 observations
+##' (columns).
+##'
+##' All raw data are also available from DropMet
+##' (http://prime.psc.riken.jp/lcms/data/Matrix/AtMetExpress%20Development%20LCMS/).
+##' 
+##' @name AtMetDev
+##' @docType data
+##' @aliases AtMetDev
+##' @title AtMetExpress development: a phytochemical atlas of Arabidopsis development by LC-qTOF/MS
+##' 
+##' @keywords datasets
+##' @references Fumio Matsuda et al. Plant Physiol 2010 152:566-578.
+##' @author Atsushi Fukushima
+NULL
+
+
+##' A metabolite data set. AtMetExpress 20 ecotypes by LC-ESI-TOF-MS dataset
+##'
+##' 100 samples (5 biological replicates for each sample)
+##' 
+##' A matrix containing  703 detected metabolite peaks (rows) and 100 observations
+##' (columns).
+##'
+##' All raw data are also available from DropMet
+##' (http://prime.psc.riken.jp/archives/data/DropMet/008/).
+##' 
+##' @name AtMetEcotype
+##' @docType data
+##' @aliases AtMetEco
+##' @title AtMetExpress 20 ecotypes by LC-ESI-TOF-MS dataset
+##' 
+##' @keywords datasets
+##' @references Fumio Matsuda et al. Front Plant Sci 2011 2:40.
+##' @author Atsushi Fukushima
+NULL
