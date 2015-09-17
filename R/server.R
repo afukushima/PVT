@@ -13,6 +13,7 @@ getMekoDataFile <- function(file) { getDataFile(paste("meko", file, sep = "/")) 
 printf <- function(...) invisible(print(sprintf(...)))
 
 # Work-arounds
+
 Sys.setlocale(locale="C") # Set opening files independent of system's locale setting
 #options(shiny.transcode.json=FALSE) # For encoding issues in 'render*' calls, where server sends "NA" and crashes client
 
@@ -65,8 +66,7 @@ shinyServer(function(input, output, session) {
 			#  representative of them.
 			rawdata <- conf$rawFile$datapath
 			pheno <- conf$phenoFile$datapath
-			gcdata_before <- readGCMS(rawdata, pheno,
-																standards=TRUE, tables=c("cas", "preferred"))
+			gcdata_before <- readGCMS(rawdata, pheno,standards=TRUE, tables=c("cas", "preferred"))
 			result <- summarize(gcdata_before, ids="preferred", dogcpeak=TRUE)
 		}
 		else if(input$apConfig == 'Generic') {
@@ -81,12 +81,10 @@ shinyServer(function(input, output, session) {
 			pheno2 <- d2$phenoFile$datapath
 			
 			print('Loading generic data 1...')
-			data1 <- readGENERIC(rawdata1, pheno1, id=d1$id,
-													 synonymIsUnder=d1$synonym, tables="preferred")
+			data1 <- readGENERIC(rawdata1, pheno1, id=d1$id, synonymIsUnder=d1$synonym, tables="preferred")
 			print('Loaded generic data 1 successfully')
 			print('Loading generic data 2...')
-			data2 <- readGENERIC(rawdata2, pheno2, id=d2$id,
-													 synonymIsUnder=d2$synonym, tables="preferred")
+			data2 <- readGENERIC(rawdata2, pheno2, id=d2$id, synonymIsUnder=d2$synonym, tables="preferred")
 			print('Loaded generic data 2 successfully')
 			
 			result = list(
@@ -212,15 +210,17 @@ shinyServer(function(input, output, session) {
 	##############################
 	# Principal component analysis
 	##############################
+	
+
 	output$atMetPCA <- renderPlot({
 		if(!hasValidAnalysisParams()) return(NULL)
-		pc <- pca(t(log10((exprs(target())*10000+1)/10000)), method=input$atMetPcaMethod)
+		pc <- pcaMethods::pca(t(log10((exprs(target())*10000+1)/10000)) , method=input$atMetPcaMethod)
 		slplot(pc)
 	})
 	
 	output$mekoPCA <- renderPlot({ 
 		if(!hasValidAnalysisParams()) return(NULL)
-		pc <- pca(t(log10(exprs(target()))), method=input$mekoPcaMethod)
+		pc <- pcaMethods::pca(t(log10(exprs(target()))), method=input$mekoPcaMethod)
 		slplot(pc)
 	})
 	
@@ -228,17 +228,17 @@ shinyServer(function(input, output, session) {
 		if(!hasValidAnalysisParams()) return(NULL)
 		
 		if(input$gcmsPcaNorm == 'None') {
-			pc <- pca(t(log10(exprs(vars()$gcdata2))), method=input$gcmsPcaMethod)  ## Users can select "method" for PCA in MeKO.
+			pc <- pcaMethods::pca(t(log10(exprs(vars()$gcdata2))), method=input$gcmsPcaMethod)  ## Users can select "method" for PCA in MeKO.
 			slplot(pc)
 		}
 		else if(input$gcmsPcaNorm == 'One') {
 			filtered <- filter.missing.values(vars()$gcdata.1, input$gcmsThresh)  # filtering by NA
-			pc <- pca(t(log10(exprs(filtered))), method=input$gcmsPcaMethod)
+			pc <- pcaMethods::pca(t(log10(exprs(filtered))), method=input$gcmsPcaMethod)
 			slplot(pc)#, scol=as.integer(vars()$gcdata.1$"genotype")+1)
 		}
 		else if(input$gcmsPcaNorm == 'CRMN') {
 			filtered <- filter.missing.values(vars()$gcdata2.crmn, input$gcmsThresh)  # filtering by NA
-			pc <- pca(t(log10(exprs(filtered))), method=input$gcmsPcaMethod)
+			pc <- pcaMethods::pca(t(log10(exprs(filtered))), method=input$gcmsPcaMethod)
 			slplot(pc)#, scol=as.integer(vars()$gcdata2$"genotype")+1)
 		}
 	})
@@ -248,7 +248,7 @@ shinyServer(function(input, output, session) {
 		
 		#filtered <- filter.missing.values(vars()$sum.data, input$genericThresh)  # filtering by NA
 		#pc <- pca(t(log10(exprs(filtered))), method=input$genericPcaMethod)
-		pc <- pca(t(log10(exprs(filteredGenericData()))), method=input$genericPcaMethod)
+		pc <- pcaMethods::pca(t(log10(exprs(filteredGenericData()))), method=input$genericPcaMethod)
 		slplot(pc)
 	})
 	
@@ -537,7 +537,6 @@ shinyServer(function(input, output, session) {
 	# Observe if GCMS Phenodata file has changed, parse data, and present headers for factor selection
 	observe({
 		if(is.null(input$gcmsPhenoFile)) return(NULL)
-		
 		headers <- sort(colnames(read.csv(input$gcmsPhenoFile$datapath, header=TRUE, nrows=1, sep=',')))
 		updateSelectInput(session, 'gcmsFactor', choices=headers)
 	})
@@ -545,7 +544,7 @@ shinyServer(function(input, output, session) {
 	# Observe if Generic files have changed, parse data, and present headers for id/synonym selection
 	observe({
 		if(is.null(input$genericRawFile1)) return(NULL)
-		headers <- sort(colnames(read.csv(input$genericRawFile1$datapath, header=TRUE, nrows=1, sep='\t')))
+		headers <- sort(colnames(read.csv(input$genericRawFile1$datapath, header=TRUE, nrows=1, sep="\t")))
 		updateSelectInput(session, 'genericSyn1', choices=headers)
 	})
 	
@@ -557,7 +556,7 @@ shinyServer(function(input, output, session) {
 	
 	observe({
 		if(is.null(input$genericRawFile2)) return(NULL)
-		headers <- sort(colnames(read.csv(input$genericRawFile2$datapath, header=TRUE, nrows=1, sep='\t')))
+		headers <- sort(colnames(read.csv(input$genericRawFile2$datapath, header=TRUE, nrows=1, sep="\t")))
 		updateSelectInput(session, 'genericSyn2', choices=headers)
 	})
 	

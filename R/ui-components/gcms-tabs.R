@@ -1,5 +1,5 @@
 library(shiny)
-
+library(pcaMethods)
 gcmsAnalysisTabs <- tags$html(
 	tabsetPanel(
 		tabPanel('Principal Component Analysis',

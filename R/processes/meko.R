@@ -6,7 +6,6 @@ library(limma)
 library(metrik)
 library(shiny)
 
-
 ######################################################
 ###  limma for differential metabolite accumulation
 ######################################################

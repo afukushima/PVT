@@ -3,24 +3,13 @@
 #####################################
 ## Prefixed listing of AtMetExpress files
 #####################################
-atMetFileList <- c(
-	'Kusano07BMC_Syst_Biol',
-  'Kusano10AminoAcids',
-  'Kusano11TPJ',
-  'Fukushima11BMC_Syst_Biol',
-  'Fukushima_unpublished_mto1xtt4')
+atMetFileList <- c('Kusano07BMC_Syst_Biol','Kusano10AminoAcids','Kusano11TPJ','Fukushima11BMC_Syst_Biol','Fukushima_unpublished_mto1xtt4')
 
 
 #####################################
 ## Prefixed listing of MeKO files
 #####################################
-mekoFileList <- c(
-	'All', 
-	'Batch01', 
-	'Batch02', 
-	'Batch03', 
-	'Batch04', 
-	'Batch05')
+mekoFileList <- c('All','Batch01','Batch02','Batch03','Batch04','Batch05')
 
 #####################################
 ## Filtering missing values from data

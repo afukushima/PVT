@@ -48,11 +48,10 @@ shinyUI(
 			tags$hr(),
 			actionButton('openApEditor', 'Edit parameters')
 		),
-		
 		mainPanel(
 			uiOutput('apHiddenVars'),
 			uiOutput('apDialog'),
-			
+			textOutput("text1"),
 			conditionalPanel(
 				condition = 'input.apConfig !== "AtMetExpress" & input.apConfig !== "MeKO" & input.apConfig !== "GC-MS (RIKEN format)" & input.apConfig !== "Generic"',
 				class='ui-state-highlight',

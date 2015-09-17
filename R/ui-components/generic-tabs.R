@@ -1,5 +1,5 @@
 library(shiny)
-
+library(pcaMethods)
 genericAnalysisTabs <- tags$html(
 	tabsetPanel(
 		tabPanel('Summary (MVA)',

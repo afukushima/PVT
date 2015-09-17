@@ -1,5 +1,5 @@
 library(shiny)
-
+library(pcaMethods)
 ##########
 # MeKO APs
 ##########
